@@ -3,7 +3,7 @@ class quoteData{
    author;
 }
 
-fetch("https://api.api-ninjas.com/v1/quotes?category=success",{
+fetch("https://api.api-ninjas.com/v1/quotes?category=good",{
    headers :new Headers({
       "x-api-key" : "vRsHcNdviiqQppBMFG2Thw==aFMyzTMObfnsjjOn"
    })
