@@ -1,0 +1,82 @@
+body{
+   margin: 0%;
+   padding: 0%;
+}
+.css-main-container{
+   display: flex;
+   flex-direction:column;
+   width: 100%;
+   height: 30rem;
+
+   background-color: rgb(255, 255, 255);
+}
+.css-nav-bar{
+   display: flex;
+   flex-direction:row;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   height: 3rem;
+
+   background: rgb(0,109,162);
+   background: linear-gradient(90deg, rgba(0,109,162,1) 0%, rgba(150,191,204,1) 67%, rgba(217,240,254,1) 91%);
+   box-shadow:0rem 0rem 0.3rem grey ;
+}
+.css-title{
+   font-family: 'Times New Roman', Times, serif;
+   color: rgb(56, 56, 56);
+}
+.css-main-area{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   height: auto;
+}
+.css-quote-box{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 80%;
+   margin-top: 5rem;
+}
+.css-quote{
+   text-align: center;
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: 600;
+   color: rgba(56, 56, 56, 0.59);
+   text-shadow: 0.02rem 0.02rem 0rem grey;
+}
+.css-quote-author{
+   margin-top: 1rem;
+   text-align: center;
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: 600;
+   color: rgba(56, 56, 56, 0.766);
+}
+.css-footer{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   position: absolute;
+   bottom: 0%;
+   width: 100%;
+   height: 8rem;
+   background: rgb(0,109,162);
+   background: linear-gradient(90deg, rgba(0,109,162,1) 0%, rgba(150,191,204,1) 67%, rgba(217,240,254,1) 91%);
+   box-shadow:0rem 0rem 0.3rem grey;
+}
+.css-page-author{
+   font-family: 'Times New Roman', Times, serif;
+   color: rgb(59, 59, 59);
+   margin-bottom:0.6rem;
+}
+.css-page-date{
+   font-family: 'Times New Roman', Times, serif;
+   font-size: small;
+   color: rgb(59, 59, 59);
+}
+
